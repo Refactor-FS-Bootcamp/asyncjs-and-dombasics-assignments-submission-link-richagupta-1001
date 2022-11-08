@@ -4,22 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="lorem.css">
-    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GitHub Profiles</title>
 </head>
 <body>
-    <section class="section-center">
-        <h3>Hipster ipsum</h3>
-        <form class="lorem-form">
-            <label for="numofpara">paragraphs:</label>
-            <div class="paraAmountNum">
-                <input type="range" min="1" max="10" value="5" id="numofparaRange"/>
-                <input type="number" min="1" max="10" value="5" id="numofpara"/>
-            </div>
-            <button type="submit" class="btn">Generate</button>
-        </form>
-        <article class="lorem-text"></article>
-    </section>
-    <script src="lorem.js"></script>
+    <form id="form">
+        <input type="text" id="search" placeholder="Search a GitHub User"/>
+    </form>
+    <main id="main"></main>
+    <script src="github.js"></script>
 </body>
 </html>
